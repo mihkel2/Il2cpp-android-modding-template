@@ -1,0 +1,19 @@
+@echo off
+"C:\\Users\\hcxys\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\cmake.exe" ^
+  "-HC:\\Users\\hcxys\\AndroidStudioProjects\\MyApplication\\app\\src\\main\\cpp" ^
+  "-DCMAKE_SYSTEM_NAME=Android" ^
+  "-DCMAKE_EXPORT_COMPILE_COMMANDS=ON" ^
+  "-DCMAKE_SYSTEM_VERSION=29" ^
+  "-DANDROID_PLATFORM=android-29" ^
+  "-DANDROID_ABI=arm64-v8a" ^
+  "-DCMAKE_ANDROID_ARCH_ABI=arm64-v8a" ^
+  "-DANDROID_NDK=C:\\Users\\hcxys\\AppData\\Local\\Android\\Sdk\\ndk\\28.2.13676358" ^
+  "-DCMAKE_ANDROID_NDK=C:\\Users\\hcxys\\AppData\\Local\\Android\\Sdk\\ndk\\28.2.13676358" ^
+  "-DCMAKE_TOOLCHAIN_FILE=C:\\Users\\hcxys\\AppData\\Local\\Android\\Sdk\\ndk\\28.2.13676358\\build\\cmake\\android.toolchain.cmake" ^
+  "-DCMAKE_MAKE_PROGRAM=C:\\Users\\hcxys\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe" ^
+  "-DCMAKE_CXX_FLAGS=-std=c++17" ^
+  "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\\Users\\hcxys\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\cxx\\Debug\\5k2t3o19\\obj\\arm64-v8a" ^
+  "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=C:\\Users\\hcxys\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\cxx\\Debug\\5k2t3o19\\obj\\arm64-v8a" ^
+  "-DCMAKE_BUILD_TYPE=Debug" ^
+  "-BC:\\Users\\hcxys\\AndroidStudioProjects\\MyApplication\\app\\.cxx\\Debug\\5k2t3o19\\arm64-v8a" ^
+  -GNinja
